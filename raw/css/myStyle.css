@@ -1,0 +1,154 @@
+.bg-darkBlue{
+    background-color: #1d1d2b;
+}
+
+#bgVideo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 1280px; 
+    min-height:100%;
+    z-index: -1;
+}
+
+.main{
+    position: relative;
+}
+
+.orange-cursor{
+    cursor: url(../img/mouse-pointer-png-images-.png), auto;
+}
+
+.vertical-align{
+    padding-top: 300px;
+}
+
+@font-face{
+    font-family: rocker;
+    src: url(../fonts/NewRocker-Regular.ttf);
+}
+
+.text-gothic{
+    font-family: rocker;
+    font-size: 450%;
+}
+
+.text-gothic-body{
+    font-family: rocker;
+    font-size: 400%;
+}
+
+.text-gothic-nav{
+    font-family: rocker;
+    font-size: 180%;
+}
+
+@font-face{
+    font-family: grotesque;
+    src: url(../fonts/AronGrotesque-regular.ttf);
+}
+
+.text-grotesque{
+    font-family: grotesque;
+    font-size: 91%;
+}
+
+@font-face{
+    font-family: grotesque-bold;
+    src: url(../fonts/AronGrotesque-bold.ttf);
+}
+
+.text-grotesqueBold{
+    font-family: grotesque-bold;
+    font-size: 100%;
+}
+
+.text-grotesque2{
+    font-family: grotesque;
+    font-size: 85%;
+}
+
+.text-orange{
+    color: #ff641c;
+}
+
+.ms-gif{
+    margin-left: 2.5rem !important;
+}
+
+.pt-7 {
+    padding-top: 7rem !important;
+}
+
+.pe-5 {
+    padding-right: 4rem !important;
+}  
+
+
+  .vertical-nav {
+    min-width: 10rem;
+    width: 10rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.4s;
+  }
+  
+  .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+  }
+  
+  /* for toggle behavior */
+  
+  #sidebar.active {
+    margin-left: -17rem;
+  }
+  
+  #content.active {
+    width: 100%;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    #sidebar {
+      margin-left: -17rem;
+    }
+    #sidebar.active {
+      margin-left: 0;
+    }
+    #content {
+      width: 100%;
+      margin: 0;
+    }
+    #content.active {
+      margin-left: 17rem;
+      width: calc(100% - 17rem);
+    }
+  }  
+
+  .verticaltext_content {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    left: -150px;
+    position: absolute;
+    color: #FFF;
+}
+
+.verticaltext_content2 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    left: -20px;
+    top: 30px;
+    position: absolute;
+    color: #FFF;
+}

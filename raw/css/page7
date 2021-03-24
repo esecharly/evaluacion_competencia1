@@ -1,0 +1,23 @@
+.page__works[data-v-d0bfe9fc] {
+ position:relative;
+ z-index:20;
+ height:100%;
+ color:#f1eeeb
+}
+@media (max-width:850px) {
+ .page__works[data-v-d0bfe9fc] {
+  height:auto
+ }
+}
+.page__works .wrapper[data-v-d0bfe9fc] {
+ display:grid;
+ grid-template-columns:repeat(12,1fr);
+ grid-gap:20px;
+ gap:20px;
+ height:100%
+}
+@media (max-width:850px) {
+ .page__works .wrapper[data-v-d0bfe9fc] {
+  height:auto
+ }
+}
