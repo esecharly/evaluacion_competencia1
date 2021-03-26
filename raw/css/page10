@@ -1,9 +1,0 @@
-body.works {
- overflow-y:hidden
-}
-@media (max-width:850px) {
- body.works {
-  overflow-y:visible;
-  overflow-y:initial
- }
-}
